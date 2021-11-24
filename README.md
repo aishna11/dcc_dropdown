@@ -11,6 +11,26 @@ Get started with:
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md)
 
+## After installing cookiecutter
+
+-After running this 
+    ```
+    $ cookiecutter gh:plotly/dash-component-boilerplate
+    ```
+    -if some error arises when working with this script 
+        -try reintalling the python in differnet location rather than "Python Files" in windows
+-follow this link https://www.youtube.com/watch?v=wifoPPRgG_I
+-in selecting use_sync: select True rather than false(cause the fragments would only form then)
+-set bellow for seeting virtual environment
+    ```
+    $ venv\scripts\activate 
+    ```
+-for auto building the python file and runnning the component use
+    ```
+    $ npm run build
+    $ python usage.py
+    ```
+
 ### Install dependencies
 
 If you have selected install_dependencies during the prompt, you can skip this part.
