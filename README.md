@@ -17,15 +17,7 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md)
     ```
     $ cookiecutter gh:plotly/dash-component-boilerplate
     ```
-- Test your code in a Python environment:
-    1. Build your code
-        ```
-        $ npm run build
-        ```
-    2. Run and modify the `usage.py` sample dash app:
-        ```
-        $ python usage.py
-        ```
+    - if some error arises when working with this script try reintalling the python in differnet location rather than "Python Files" in windows
 - Write tests for your component.
     - A sample test is available in `tests/test_usage.py`, it will load `usage.py` and you can then automate interactions with selenium.
     - Run the tests with `$ pytest tests`.
