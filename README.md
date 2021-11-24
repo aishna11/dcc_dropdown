@@ -13,7 +13,10 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## After installing cookiecutter
 
-- The demo app is in `src/demo` and you will import your example component code into your demo app.
+- After running this 
+-     ```
+    $ cookiecutter gh:plotly/dash-component-boilerplate
+    ```
 - Test your code in a Python environment:
     1. Build your code
         ```
