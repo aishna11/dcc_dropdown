@@ -19,28 +19,13 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md)
     ```
     - if some error arises when working with this script 
         - try reintalling the python in differnet location rather than "Python Files" in windows
-- Write tests for your component.
-    - A sample test is available in `tests/test_usage.py`, it will load `usage.py` and you can then automate interactions with selenium.
-    - Run the tests with `$ pytest tests`.
-    - The Dash team uses these types of integration tests extensively. Browse the Dash component code on GitHub for more examples of testing (e.g. https://github.com/plotly/dash-core-components)
-- Add custom styles to your component by putting your custom CSS files into your distribution folder (`dcc_dropdown`).
-    - Make sure that they are referenced in `MANIFEST.in` so that they get properly included when you're ready to publish your component.
-    - Make sure the stylesheets are added to the `_css_dist` dict in `dcc_dropdown/__init__.py` so dash will serve them automatically when the component suite is requested.
-- [Review your code](./review_checklist.md)
-
--After running this 
+- follow this link https://www.youtube.com/watch?v=wifoPPRgG_I
+- in selecting use_sync: select True rather than false(cause the fragments would only form then)
+- set bellow for seeting virtual environment
     ```
     $ cookiecutter gh:plotly/dash-component-boilerplate
     ```
-    -if some error arises when working with this script 
-        -try reintalling the python in differnet location rather than "Python Files" in windows
--follow this link https://www.youtube.com/watch?v=wifoPPRgG_I
--in selecting use_sync: select True rather than false(cause the fragments would only form then)
--set bellow for seeting virtual environment
-    ```
-    $ venv\scripts\activate 
-    ```
--for auto building the python file and runnning the component use
+- for auto building the python file and runnning the component use
     ```
     $ npm run build
     $ python usage.py
