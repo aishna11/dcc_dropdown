@@ -14,7 +14,7 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md)
 ## After installing cookiecutter
 
 - After running this 
--     ```
+    ```
     $ cookiecutter gh:plotly/dash-component-boilerplate
     ```
 - Test your code in a Python environment:
