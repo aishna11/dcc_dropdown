@@ -1,0 +1,11 @@
+include dcc_dropdown/dcc_dropdown.min.js
+include dcc_dropdown/dcc_dropdown.min.js.map
+include dcc_dropdown/async-*.js
+include dcc_dropdown/async-*.js.map
+include dcc_dropdown/*-shared.js
+include dcc_dropdown/*-shared.js.map
+include dcc_dropdown/metadata.json
+include dcc_dropdown/package-info.json
+include README.md
+include LICENSE
+include package.json
